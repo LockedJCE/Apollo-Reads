@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/googlebooks');
+mongoose.connect("mongodb+srv://lockinjce:QbOfsKS3Jahe15Kt@cluster0.go6anse.mongodb.net/ApolloDB?retryWrites=true&w=majority&appName=Cluster0");
 
 module.exports = mongoose.connection;
